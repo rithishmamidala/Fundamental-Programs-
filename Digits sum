@@ -1,0 +1,11 @@
+#Given a non-negative integer - N, print the sum of digits of the given number.
+#Python 
+s = "1234"
+#splitting
+l = [*s]
+c = 0
+for i in l :
+    c += int(i)
+print(c)
+    
+
